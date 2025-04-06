@@ -1,63 +1,24 @@
-<<<<<<< HEAD
-# CadastroAlunos
+# Cadastro de Alunos - Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+Esta é uma aplicação básica em Angular para cadastro de alunos com rotas e formulário interativo.
 
-## Development server
+## Funcionalidades
 
-To start a local development server, run:
+- Cadastro de nomes de alunos
+- Exibição em tempo real
+- Lista de alunos cadastrados
+- Página com informações do projeto
+- Navegação entre páginas com rotas
 
-```bash
-ng serve
-```
+## Como executar o projeto
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### 1. Pré-requisitos
 
-## Code scaffolding
+- Node instalado.
+- Angular CLI instalado.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 2. Como Testar
 
 ```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# CadastroAlunos-Angular
->>>>>>> e6444dedfeb47c02ae6b7c88c161d069cd84e801
+- ng serve
+- acesse (http://localhost:4200)
