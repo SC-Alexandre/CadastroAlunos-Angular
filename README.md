@@ -20,5 +20,6 @@ Esta é uma aplicação básica em Angular para cadastro de alunos com rotas e f
 ### 2. Como Testar
 
 ```bash
+- npm install
 - ng serve
 - acesse (http://localhost:4200)
