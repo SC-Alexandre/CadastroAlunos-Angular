@@ -7,15 +7,3 @@
 <!-- Botão Salvar -->
 <button (click)="salvar()">Salvar</button>
 
-<!-- Lista de Alunos -->
-<div *ngIf="listaDeAlunos.length > 0; else semAlunos">
-  <h3>Alunos Cadastrados:</h3>
-  <ul>
-    <li *ngFor="let aluno of listaDeAlunos">{{ aluno }}</li>
-  </ul>
-</div>
-
-<!-- Mensagem se não houver alunos -->
-<ng-template #semAlunos>
-  <p>Nenhum aluno cadastrado</p>
-</ng-template>

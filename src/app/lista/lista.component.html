@@ -1,0 +1,9 @@
+<h3>Lista de Alunos</h3>
+
+<ul *ngIf="alunos.length > 0; else vazio">
+  <li *ngFor="let aluno of alunos">{{ aluno }}</li>
+</ul>
+
+<ng-template #vazio>
+  <p>Nenhum aluno cadastrado</p>
+</ng-template>
